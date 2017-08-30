@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "3679004947",
+    "firebase_url": "https://android-app-1138.firebaseio.com",
+    "project_id": "android-app-1138",
+    "storage_bucket": "android-app-1138.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3679004947:android:091d2447d357e134",
+        "android_client_info": {
+          "package_name": "com.privatix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3679004947-ar551o81ntd8to3a4jbag19hlie6vkk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.privatix",
+            "certificate_hash": "A6733B36325904AFAA803713C348EDB525CFDC78"
+          }
+        },
+        {
+          "client_id": "3679004947-tq3gcv0f62e448mgbdiso5cn9dkbaahn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "3679004947-fd9ovie4vi5huar5km5vmuhiq28lc0ih.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "3679004947-h21dms241gfn6aep76vkjb699h0nohbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-wieLfI1B7-pIYv3fCPgteAs2wSaxA-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-71361845-13"
+          }
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3679004947-b2jovarg4osqkjuhrtk70brn16gqptcf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.privatix.ios"
+              }
+            },
+            {
+              "client_id": "3679004947-tq3gcv0f62e448mgbdiso5cn9dkbaahn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

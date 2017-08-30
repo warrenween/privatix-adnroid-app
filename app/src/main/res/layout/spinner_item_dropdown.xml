@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgCountry"
+        android:layout_width="@dimen/sp_img_country_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvCountry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tvCountry"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/sid_img_margin_left"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ae" />
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/sp_tv_country_margin_bottom"
+        android:layout_marginLeft="@dimen/sp_tv_country_margin_left"
+        android:layout_marginTop="@dimen/sp_tv_country_margin_top"
+        android:layout_toRightOf="@+id/imgCountry"
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/sid_tv_margin_right"
+        android:text="US - San Francisco"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sid_tv_text_size" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_premium"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="3dp"-->
+        <!--android:layout_toLeftOf="@+id/imgStar"-->
+        <!--android:text="@string/premium"-->
+        <!--android:visibility="gone" />-->
+
+
+    <ImageView
+        android:id="@+id/imgStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvCountry"
+        android:layout_alignTop="@+id/tvCountry"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@+id/imgChecked"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/premium_star_small"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgChecked"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvCountry"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tvCountry"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:alpha="0"
+        android:scaleType="fitCenter"
+        android:src="@drawable/list_checked" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_account_status_background">
+
+    </View>
+
+
+</RelativeLayout>

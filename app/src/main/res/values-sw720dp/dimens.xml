@@ -1,0 +1,120 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <!--Get Protected-->
+    <dimen name="get_protected_tv_margin">6dp</dimen>
+    <dimen name="logo_margin_top">40dp</dimen>
+    <dimen name="get_protected_margin_top">30dp</dimen>
+    <dimen name="get_protected_padding_top_bottom">10dp</dimen>
+    <dimen name="get_protected_padding_left_right">30dp</dimen>
+    <dimen name="get_protected_text_size">16sp</dimen>
+
+    <!--activity main-->
+    <dimen name="rel_shield_margin_top">30dp</dimen>
+    <dimen name="marquee_view_100_padding_top">40dp</dimen>
+    <dimen name="marquee_view_800_padding_bottom">40dp</dimen>
+    <dimen name="marquee_tv_text_size">12sp</dimen>
+
+    <dimen name="tv_protection_status_margin_top">15dp</dimen>
+    <dimen name="tv_protection_status_text_size">45sp</dimen>
+
+    <dimen name="tv_protection_tip_text_size">20sp</dimen>
+    <dimen name="tv_protection_tip_margin_top">10dp</dimen>
+    <dimen name="tv_protection_tip_padding_left">30dp</dimen>
+    <dimen name="tv_protection_tip_padding_right">30dp</dimen>
+
+    <dimen name="rel_spinner_margin_top">25dp</dimen>
+    <dimen name="rel_spinner_margin_left">45dp</dimen>
+    <dimen name="rel_spinner_margin_right">45dp</dimen>
+
+    <dimen name="tv_account_status_text_size">20sp</dimen>
+    <dimen name="tv_account_status_padding_top">15dp</dimen>
+    <dimen name="tv_account_status_padding_bottom">15dp</dimen>
+    <dimen name="tv_account_status_margin_left">15dp</dimen>
+
+    <dimen name="switch_margin_top">10dp</dimen>
+    <dimen name="switch_text_size">20sp</dimen>
+
+    <!-- Settings-->
+    <dimen name="blue_separator_height">20dp</dimen>
+    <dimen name="blue_separator_margin_top">10dp</dimen>
+    <dimen name="text_views_padding">14dp</dimen>
+    <dimen name="switch_padding">7dp</dimen>
+    <dimen name="line_separator_height">1dp</dimen>
+    <dimen name="tv_login_padding">8dp</dimen>
+    <dimen name="tv_login_text_size">30sp</dimen>
+
+    <!--activity premium-->
+    <dimen name="ll_dots_margin_bottom">30dp</dimen>
+
+    <dimen name="iv_first_dot_margin_right">10dp</dimen>
+    <dimen name="iv_second_dot_margin_right">10dp</dimen>
+
+    <dimen name="tv_monthly_padding_top">15dp</dimen>
+    <dimen name="tv_monthly_padding_bottom">15dp</dimen>
+
+    <dimen name="tv_yearly_padding_top">15dp</dimen>
+    <dimen name="tv_yearly_padding_bottom">15dp</dimen>
+
+    <dimen name="ll_btn_margin_left">25dp</dimen>
+
+    <dimen name="btn_buy_monthly_margin_top">10dp</dimen>
+    <dimen name="btn_buy_monthly_margin_bottom">10dp</dimen>
+
+    <dimen name="btn_buy_yearly_margin_top">10dp</dimen>
+    <dimen name="btn_buy_yearly_margin_bottom">10dp</dimen>
+
+    <dimen name="divider">1dp</dimen>
+
+    <!--activity_recovery-->
+    <dimen name="recovery_progress_margin_bottom">8dp</dimen>
+    <dimen name="btn_recover_margin_top">25dp</dimen>
+    <dimen name="recovery_form_margin_top">40dp</dimen>
+    <dimen name="recovery_form_margin_left">20dp</dimen>
+    <dimen name="recovery_form_margin_right">20dp</dimen>
+    <dimen name="recovered_message_margin_top">10dp</dimen>
+    <dimen name="recovered_back_button_margin_top">60dp</dimen>
+
+    <!-- fragment_premium -->
+    <dimen name="iv_premium_images_margin_top">30dp</dimen>
+
+    <dimen name="ll_premium_hints_margin_top">25dp</dimen>
+
+    <dimen name="tv_title_green_text_size">40sp</dimen>
+
+    <dimen name="tv_title_black_margin_left">10dp</dimen>
+    <dimen name="tv_title_black_text_size">40sp</dimen>
+
+    <dimen name="tv_message_margin_top">15dp</dimen>
+    <dimen name="tv_message_text_size">26sp</dimen>
+
+    <!-- spinner item-->
+    <dimen name="sp_margin_right">280dp</dimen>
+    <dimen name="sp_img_country_width">30dp</dimen>
+
+    <dimen name="sid_img_margin_left">10dp</dimen>
+    <dimen name="sp_tv_country_margin_left">10dp</dimen>
+    <dimen name="sp_tv_country_margin_top">10dp</dimen>
+    <dimen name="sp_tv_country_margin_bottom">10dp</dimen>
+    <dimen name="sp_tv_text_size">24sp</dimen>
+    <dimen name="sp_tv_padding_left">60dp</dimen>
+
+    <!--spinner_item_dropdown-->
+    <dimen name="sid_img_country_width">30dp</dimen>
+
+    <dimen name="sid_tv_country_margin_left">10dp</dimen>
+    <dimen name="sid_tv_country_margin_top">17dp</dimen>
+    <dimen name="sid_tv_country_margin_bottom">17dp</dimen>
+    <dimen name="sid_tv_text_size">24sp</dimen>
+    <dimen name="sid_tv_margin_right">120dp</dimen>
+
+
+    <!--Login -SignUp -->
+    <dimen name="edt_email_padding_left">4dp</dimen>
+    <dimen name="login_margin_top">30dp</dimen>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <!--activity main-->
+    <dimen name="rel_shield_margin_top">100dp</dimen>
+    <dimen name="marquee_view_100_padding_top">50dp</dimen>
+    <dimen name="marquee_view_800_padding_bottom">50dp</dimen>
+    <dimen name="tv_protection_status_margin_top">20dp</dimen>
+</resources>

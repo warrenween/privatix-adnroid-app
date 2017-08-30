@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_shield"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/rel_shield_margin_top"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.privatix.utils.ui.MarqueeViewLeft
+                android:id="@+id/marqueeView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_first_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/text_not_protected_first"
+                    android:textSize="@dimen/marquee_tv_text_size" />
+            </com.privatix.utils.ui.MarqueeViewLeft>
+
+            <com.privatix.utils.ui.MarqueeViewRight
+                android:id="@+id/marqueeView200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marqueeView100">
+
+                <TextView
+                    android:id="@+id/tv_second_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/text_not_protected_second"
+                    android:textSize="@dimen/marquee_tv_text_size" />
+            </com.privatix.utils.ui.MarqueeViewRight>
+
+            <com.privatix.utils.ui.MarqueeViewLeft
+                android:id="@+id/marqueeView300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marqueeView200">
+
+                <TextView
+                    android:id="@+id/tv_third_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/text_not_protected_third"
+                    android:textSize="@dimen/marquee_tv_text_size" />
+            </com.privatix.utils.ui.MarqueeViewLeft>
+
+            <com.privatix.utils.ui.MarqueeViewRight
+                android:id="@+id/marqueeView400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marqueeView300">
+
+                <TextView
+                    android:id="@+id/tv_fourth_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/text_not_protected_fourth"
+                    android:textSize="@dimen/marquee_tv_text_size" />
+            </com.privatix.utils.ui.MarqueeViewRight>
+
+
+            <com.privatix.utils.ui.MarqueeViewLeft
+                android:id="@+id/marqueeView500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marqueeView400">
+
+                <TextView
+                    android:id="@+id/tv_fifth_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/text_not_protected_fifth"
+                    android:textSize="@dimen/marquee_tv_text_size" />
+            </com.privatix.utils.ui.MarqueeViewLeft>
+
+            <com.privatix.utils.ui.MarqueeViewRight
+                android:id="@+id/marqueeView600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marqueeView500">
+
+                <TextView
+                    android:id="@+id/tv_sixth_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/text_not_protected_sixth"
+                    android:textSize="@dimen/marquee_tv_text_size" />
+            </com.privatix.utils.ui.MarqueeViewRight>
+
+            <com.privatix.utils.ui.MarqueeViewLeft
+                android:id="@+id/marqueeView700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marqueeView600">
+
+                <TextView
+                    android:id="@+id/tv_seventh_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/text_not_protected_seventh"
+                    android:textSize="@dimen/marquee_tv_text_size" />
+            </com.privatix.utils.ui.MarqueeViewLeft>
+
+            <com.privatix.utils.ui.MarqueeViewRight
+                android:id="@+id/marqueeView800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marqueeView700">
+
+                <TextView
+                    android:id="@+id/tv_eighth_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/text_not_protected_eighth"
+                    android:textSize="@dimen/marquee_tv_text_size" />
+            </com.privatix.utils.ui.MarqueeViewRight>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_shield"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shield_broken" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_protection_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/tv_protection_status_margin_top"
+            android:textSize="@dimen/tv_protection_status_text_size" />
+
+        <TextView
+            android:id="@+id/tv_protection_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_protection_status"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/tv_protection_tip_margin_top"
+            android:gravity="center"
+            android:text="@string/protection_tip_off"
+            android:textSize="@dimen/tv_protection_tip_text_size" />
+
+        <RelativeLayout
+            android:id="@+id/rel_spinner_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_account_status"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/tv_protection_tip"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/rel_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/rel_spinner_margin_top"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/rel_spinner_margin_top"
+                android:background="@drawable/rect_spinner">
+
+                <Spinner
+                    android:id="@+id/spinner_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"
+                    tools:listitem="@layout/spinner_item" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switch_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rel_spinner"
+                android:layout_alignRight="@+id/rel_spinner"
+                android:layout_below="@+id/rel_spinner"
+                android:layout_marginTop="@dimen/switch_margin_top"
+                android:padding="0dp"
+                android:text="@string/switch_text_off"
+                android:textColor="@color/grayTextColor"
+                android:textSize="@dimen/switch_text_size"
+                app:theme="@style/SwitchStyle" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_account_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_account_status_background"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_account_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mail_checked" />
+
+            <TextView
+                android:id="@+id/tv_account_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tv_account_status_margin_left"
+                android:gravity="center"
+                android:paddingBottom="@dimen/tv_account_status_padding_bottom"
+                android:paddingTop="@dimen/tv_account_status_padding_top"
+                android:text="Verify"
+                android:textSize="@dimen/tv_account_status_text_size" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_video_ad_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_account_status_background"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/video_camera" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tv_account_status_margin_left"
+                android:gravity="center"
+                android:paddingBottom="@dimen/tv_account_status_padding_bottom"
+                android:paddingTop="@dimen/tv_account_status_padding_top"
+                android:text="@string/video_ad_text"
+                android:textSize="@dimen/tv_account_status_text_size" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_url_banner"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</LinearLayout>

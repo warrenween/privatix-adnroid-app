@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url_tos">http://privatix.com/terms-of-service/</string>
+    <string name="url_privacy_policy">http://privatix.com/privacy-policy</string>
+    <string name="url_imprint">http://privatix.com/imprint</string>
+    <string name="url_get_help">http://support.privatix.com</string>
+    <string name="server_client_id">3679004947-h21dms241gfn6aep76vkjb699h0nohbi.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">780249315436333</string>
+
+    <string name="os_name">Android</string>
+    <string name="os_family">Linux</string>
+    <string name="software_type">Android-App/</string>
+
+    <string name="login_failed_access">Error email or password</string>
+    <string name="login_failed_device_limit">Device limit reached</string>
+
+
+    <string name="token_part3">B6B0AL9HD55Ny1tDxHMA+q2883DQ1DxaEoGvjCRAfFO7jRWNe3CShefVl2hhCrmHP9uKfB6obg7ZfCHsY8mslfx+imt7tp70fUFlGs0uKJ+CU983+humfpL7/pf+qFGEXu1SCSwQNJblc7QqzTPy9ruP2roWIeNeMj6atK9gmu+</string>
+    <string name="token_part2">18OZlA2M1QiCFw3QUk3ue1p26/155cyOqncZkcyLBWIwjk6s6UIA6GFXU8x4YtFpE9FNebQIDAQAB</string>
+    <string name="token_part1">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq24BXPikCGQt6O7vDmtGUlBYdmI8xBZ0YmMI+urcsfOsxKZsi7e2tdKc697NmY7ASvqLHMMEQhMQH4D6NsIlZ3mEGsgGRM3yx9zp</string>
+
+
+    <string name="check_token">W35mnJtX37QXfNGN</string>
+
+    <string name="appodeal_key">7a9fb163c7f29bca1c66fc9c0fcb50f529ef426e740c6ff2</string>
+
+    <string name="ad_target_start">action:start</string>
+    <string name="ad_target_disconnect">action:disconnect</string>
+    <string name="ad_target_connect">action:connect</string>
+
+    <string name="ad_format_videotext">videotext</string>
+    <string name="ad_format_adnetwork">adnetwork</string>
+    <string name="ad_format_url">url</string>
+
+    <string name="ad_type_adnetwork">adnetwork</string>
+    <string name="ad_type_banner">banner</string>
+    <string name="ad_type_lock">lock</string>
+
+
+    <string name="notification_state_disconnected">state:disconnected</string>
+    <string name="notification_state_free_connected">state:free_connected</string>
+
+    <string name="plan_name_free">free</string>
+    <string name="plan_name_premium">premium</string>
+
+
+    <string name="trace_error_connect">connect</string>
+    <string name="trace_error_timeout">timeout</string>
+
+
+    <string name="api_error_timeout"> java.net.SocketTimeoutException</string>
+
+    <!--<string name="flurry_api_key">2H8BZK9SNXFD3B8T8DNC</string>-->
+    <string name="software_name">Android-App/</string>
+
+
+    <string-array name="competitors">
+        <item>hotspotshield.android.vpn</item>
+        <item>com.tunnelbear.android</item>
+        <item>com.zenmate.android</item>
+        <item>com.freevpnintouch</item>
+    </string-array>
+
+
+    <string name="download_apk_link">https://dxw4crzwfgmzw.cloudfront.net/android/</string>
+    <string name="download_apk_file_name">app.apk</string>
+    <string name="download_apk_update_file_name">version.txt</string>
+
+</resources>

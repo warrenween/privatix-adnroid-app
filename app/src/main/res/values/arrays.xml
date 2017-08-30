@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Copyright (C) 2012-2014 Tobias Brunner
+    Hochschule fuer Technik Rapperswil
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by the
+    Free Software Foundation; either version 2 of the License, or (at your
+    option) any later version.  See <http://www.fsf.org/copyleft/gpl.txt>.
+
+    This program is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+    or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+    for more details.
+-->
+<resources>
+    <!-- the order here must match the enum entries in VpnType.java -->
+    <string-array name="vpn_types">
+        <item>IKEv2 EAP (Username/Password)</item>
+        <item>IKEv2 Certificate</item>
+        <item>IKEv2 Certificate + EAP (Username/Password)</item>
+        <item>IKEv2 EAP-TLS (Certificate)</item>
+        <item>IKEv2 EAP-TNC (Username/Password)</item>
+    </string-array>
+
+
+    <string-array name="premium_title_green">
+        <item>More</item>
+        <item>Rocket</item>
+        <item>Stop</item>
+    </string-array>
+
+    <string-array name="premium_title_black">
+        <item>locations</item>
+        <item>speed</item>
+        <item>waiting</item>
+    </string-array>
+
+    <string-array name="premium_messages">
+        <item>Get access to more country\nlocations around the world</item>
+        <item>Get dedicated unlimited speed\nvia our premium servers</item>
+        <item>No more waiting for a free slot, when\nthe network is overloaded by free user</item>
+    </string-array>
+
+
+    <string-array name="imgs_premium">
+        <item>@drawable/map_icon</item>
+        <item>@drawable/rocket</item>
+        <item>@drawable/ticket</item>
+    </string-array>
+
+
+    <!-- Add country flag and country name in two arrays -->
+    <string-array name="imgs_flags">
+        <item>@drawable/ad</item>
+        <item>@drawable/ae</item>
+        <item>@drawable/af</item>
+        <item>@drawable/ag</item>
+        <item>@drawable/al</item>
+        <item>@drawable/am</item>
+        <item>@drawable/ao</item>
+        <item>@drawable/ar</item>
+        <item>@drawable/at</item>
+        <item>@drawable/au</item>
+        <item>@drawable/az</item>
+        <item>@drawable/ba</item>
+        <item>@drawable/bb</item>
+        <item>@drawable/bd</item>
+        <item>@drawable/be</item>
+        <item>@drawable/bf</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bh</item>
+        <item>@drawable/bi</item>
+        <item>@drawable/bj</item>
+        <item>@drawable/bn</item>
+        <item>@drawable/bo</item>
+        <item>@drawable/br</item>
+        <item>@drawable/bs</item>
+        <item>@drawable/bt</item>
+        <item>@drawable/bw</item>
+        <item>@drawable/by</item>
+        <item>@drawable/bz</item>
+        <item>@drawable/ca</item>
+        <item>@drawable/cd</item>
+        <item>@drawable/cf</item>
+        <item>@drawable/cg</item>
+        <item>@drawable/ch</item>
+        <item>@drawable/ci</item>
+        <item>@drawable/cl</item>
+        <item>@drawable/cm</item>
+        <item>@drawable/cn</item>
+        <item>@drawable/co</item>
+        <item>@drawable/cr</item>
+        <item>@drawable/cu</item>
+        <item>@drawable/cv</item>
+        <item>@drawable/cy</item>
+        <item>@drawable/cz</item>
+        <item>@drawable/de</item>
+        <item>@drawable/dj</item>
+        <item>@drawable/dk</item>
+        <item>@drawable/dm</item>
+        <item>@drawable/do_</item>
+        <item>@drawable/dz</item>
+        <item>@drawable/ec</item>
+        <item>@drawable/ee</item>
+        <item>@drawable/eg</item>
+        <item>@drawable/eh</item>
+        <item>@drawable/er</item>
+        <item>@drawable/es</item>
+        <item>@drawable/et</item>
+        <item>@drawable/fi</item>
+        <item>@drawable/fj</item>
+        <item>@drawable/fm</item>
+        <item>@drawable/fr</item>
+        <item>@drawable/ga</item>
+        <item>@drawable/gb</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/ge</item>
+        <item>@drawable/gh</item>
+        <item>@drawable/gm</item>
+        <item>@drawable/gn</item>
+        <item>@drawable/gq</item>
+        <item>@drawable/gr</item>
+        <item>@drawable/gt</item>
+        <item>@drawable/gw</item>
+        <item>@drawable/gy</item>
+        <item>@drawable/hk</item>
+        <item>@drawable/hn</item>
+        <item>@drawable/hr</item>
+        <item>@drawable/ht</item>
+        <item>@drawable/hu</item>
+        <item>@drawable/id</item>
+        <item>@drawable/ie</item>
+        <item>@drawable/il</item>
+        <item>@drawable/in</item>
+        <item>@drawable/iq</item>
+        <item>@drawable/ir</item>
+        <item>@drawable/is</item>
+        <item>@drawable/it</item>
+        <item>@drawable/jm</item>
+        <item>@drawable/jo</item>
+        <item>@drawable/jp</item>
+        <item>@drawable/ke</item>
+        <item>@drawable/kg</item>
+        <item>@drawable/kh</item>
+        <item>@drawable/ki</item>
+        <item>@drawable/km</item>
+        <item>@drawable/kn</item>
+        <item>@drawable/kp</item>
+        <item>@drawable/kr</item>
+        <item>@drawable/ks</item>
+        <item>@drawable/kw</item>
+        <item>@drawable/kz</item>
+        <item>@drawable/la</item>
+        <item>@drawable/lb</item>
+        <item>@drawable/lc</item>
+        <item>@drawable/li</item>
+        <item>@drawable/lk</item>
+        <item>@drawable/lr</item>
+        <item>@drawable/ls</item>
+        <item>@drawable/lt</item>
+        <item>@drawable/lu</item>
+        <item>@drawable/lv</item>
+        <item>@drawable/ly</item>
+        <item>@drawable/ma</item>
+        <item>@drawable/mc</item>
+        <item>@drawable/md</item>
+        <item>@drawable/me</item>
+        <item>@drawable/mg</item>
+        <item>@drawable/mh</item>
+        <item>@drawable/mk</item>
+        <item>@drawable/ml</item>
+        <item>@drawable/mm</item>
+        <item>@drawable/mn</item>
+        <item>@drawable/mr</item>
+        <item>@drawable/mt</item>
+        <item>@drawable/mu</item>
+        <item>@drawable/mv</item>
+        <item>@drawable/mw</item>
+        <item>@drawable/mx</item>
+        <item>@drawable/my</item>
+        <item>@drawable/mz</item>
+        <item>@drawable/na</item>
+        <item>@drawable/ne</item>
+        <item>@drawable/ng</item>
+        <item>@drawable/ni</item>
+        <item>@drawable/nl</item>
+        <item>@drawable/no</item>
+        <item>@drawable/np</item>
+        <item>@drawable/nr</item>
+        <item>@drawable/nz</item>
+        <item>@drawable/om</item>
+        <item>@drawable/pa</item>
+        <item>@drawable/pe</item>
+        <item>@drawable/pg</item>
+        <item>@drawable/ph</item>
+        <item>@drawable/pk</item>
+        <item>@drawable/pl</item>
+        <item>@drawable/pt</item>
+        <item>@drawable/pw</item>
+        <item>@drawable/py</item>
+        <item>@drawable/qa</item>
+        <item>@drawable/ro</item>
+        <item>@drawable/rs</item>
+        <item>@drawable/ru</item>
+        <item>@drawable/rw</item>
+        <item>@drawable/sa</item>
+        <item>@drawable/sb</item>
+        <item>@drawable/sc</item>
+        <item>@drawable/sd</item>
+        <item>@drawable/se</item>
+        <item>@drawable/sg</item>
+        <item>@drawable/si</item>
+        <item>@drawable/sk</item>
+        <item>@drawable/sl</item>
+        <item>@drawable/sm</item>
+        <item>@drawable/sn</item>
+        <item>@drawable/so</item>
+        <item>@drawable/sr</item>
+        <item>@drawable/st</item>
+        <item>@drawable/sv</item>
+        <item>@drawable/sy</item>
+        <item>@drawable/sz</item>
+        <item>@drawable/td</item>
+        <item>@drawable/tg</item>
+        <item>@drawable/th</item>
+        <item>@drawable/tj</item>
+        <item>@drawable/tl</item>
+        <item>@drawable/tm</item>
+        <item>@drawable/tn</item>
+        <item>@drawable/to</item>
+        <item>@drawable/tr</item>
+        <item>@drawable/tt</item>
+        <item>@drawable/tv</item>
+        <item>@drawable/tw</item>
+        <item>@drawable/tz</item>
+        <item>@drawable/ua</item>
+        <item>@drawable/ug</item>
+        <item>@drawable/us</item>
+        <item>@drawable/uy</item>
+        <item>@drawable/uz</item>
+        <item>@drawable/va</item>
+        <item>@drawable/vc</item>
+        <item>@drawable/ve</item>
+        <item>@drawable/vn</item>
+        <item>@drawable/vu</item>
+        <item>@drawable/ws</item>
+        <item>@drawable/ye</item>
+        <item>@drawable/za</item>
+        <item>@drawable/zm</item>
+        <item>@drawable/zw</item>
+    </string-array>
+
+
+    <!-- Add country flag and country name in two arrays -->
+    <string-array name="country_code_name">
+        <item>ad</item>
+        <item>ae</item>
+        <item>af</item>
+        <item>ag</item>
+        <item>al</item>
+        <item>am</item>
+        <item>ao</item>
+        <item>ar</item>
+        <item>at</item>
+        <item>au</item>
+        <item>az</item>
+        <item>ba</item>
+        <item>bb</item>
+        <item>bd</item>
+        <item>be</item>
+        <item>bf</item>
+        <item>bg</item>
+        <item>bh</item>
+        <item>bi</item>
+        <item>bj</item>
+        <item>bn</item>
+        <item>bo</item>
+        <item>br</item>
+        <item>bs</item>
+        <item>bt</item>
+        <item>bw</item>
+        <item>by</item>
+        <item>bz</item>
+        <item>ca</item>
+        <item>cd</item>
+        <item>cf</item>
+        <item>cg</item>
+        <item>ch</item>
+        <item>ci</item>
+        <item>cl</item>
+        <item>cm</item>
+        <item>cn</item>
+        <item>co</item>
+        <item>cr</item>
+        <item>cu</item>
+        <item>cv</item>
+        <item>cy</item>
+        <item>cz</item>
+        <item>de</item>
+        <item>dj</item>
+        <item>dk</item>
+        <item>dm</item>
+        <item>do</item>
+        <item>dz</item>
+        <item>ec</item>
+        <item>ee</item>
+        <item>eg</item>
+        <item>eh</item>
+        <item>er</item>
+        <item>es</item>
+        <item>et</item>
+        <item>fi</item>
+        <item>fj</item>
+        <item>fm</item>
+        <item>fr</item>
+        <item>ga</item>
+        <item>gb</item>
+        <item>gd</item>
+        <item>ge</item>
+        <item>gh</item>
+        <item>gm</item>
+        <item>gn</item>
+        <item>gq</item>
+        <item>gr</item>
+        <item>gt</item>
+        <item>gw</item>
+        <item>gy</item>
+        <item>hk</item>
+        <item>hn</item>
+        <item>hr</item>
+        <item>ht</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>ie</item>
+        <item>il</item>
+        <item>in</item>
+        <item>iq</item>
+        <item>ir</item>
+        <item>is</item>
+        <item>it</item>
+        <item>jm</item>
+        <item>jo</item>
+        <item>jp</item>
+        <item>ke</item>
+        <item>kg</item>
+        <item>kh</item>
+        <item>ki</item>
+        <item>km</item>
+        <item>kn</item>
+        <item>kp</item>
+        <item>kr</item>
+        <item>ks</item>
+        <item>kw</item>
+        <item>kz</item>
+        <item>la</item>
+        <item>lb</item>
+        <item>lc</item>
+        <item>li</item>
+        <item>lk</item>
+        <item>lr</item>
+        <item>ls</item>
+        <item>lt</item>
+        <item>lu</item>
+        <item>lv</item>
+        <item>ly</item>
+        <item>ma</item>
+        <item>mc</item>
+        <item>md</item>
+        <item>me</item>
+        <item>mg</item>
+        <item>mh</item>
+        <item>mk</item>
+        <item>ml</item>
+        <item>mm</item>
+        <item>mn</item>
+        <item>mr</item>
+        <item>mt</item>
+        <item>mu</item>
+        <item>mv</item>
+        <item>mw</item>
+        <item>mx</item>
+        <item>my</item>
+        <item>mz</item>
+        <item>na</item>
+        <item>ne</item>
+        <item>ng</item>
+        <item>ni</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>np</item>
+        <item>nr</item>
+        <item>nz</item>
+        <item>om</item>
+        <item>pa</item>
+        <item>pe</item>
+        <item>pg</item>
+        <item>ph</item>
+        <item>pk</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>pw</item>
+        <item>py</item>
+        <item>qa</item>
+        <item>ro</item>
+        <item>rs</item>
+        <item>ru</item>
+        <item>rw</item>
+        <item>sa</item>
+        <item>sb</item>
+        <item>sc</item>
+        <item>sd</item>
+        <item>se</item>
+        <item>sg</item>
+        <item>si</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>sm</item>
+        <item>sn</item>
+        <item>so</item>
+        <item>sr</item>
+        <item>st</item>
+        <item>sv</item>
+        <item>sy</item>
+        <item>sz</item>
+        <item>td</item>
+        <item>tg</item>
+        <item>th</item>
+        <item>tj</item>
+        <item>tl</item>
+        <item>tm</item>
+        <item>tn</item>
+        <item>to</item>
+        <item>tr</item>
+        <item>tt</item>
+        <item>tv</item>
+        <item>tw</item>
+        <item>tz</item>
+        <item>ua</item>
+        <item>ug</item>
+        <item>us</item>
+        <item>uy</item>
+        <item>uz</item>
+        <item>va</item>
+        <item>vc</item>
+        <item>ve</item>
+        <item>vn</item>
+        <item>vu</item>
+        <item>ws</item>
+        <item>ye</item>
+        <item>za</item>
+        <item>zm</item>
+        <item>zw</item>
+    </string-array>
+</resources>

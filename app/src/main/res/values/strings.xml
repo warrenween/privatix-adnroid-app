@@ -1,0 +1,341 @@
+<resources>
+    <string name="app_name">Privatix</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Application -->
+    <string name="main_activity_name">strongSwan</string>
+    <string name="show_log">View log</string>
+    <string name="search">Search</string>
+    <string name="vpn_not_supported_title">VPN not supported</string>
+    <string name="vpn_not_supported">Your device does not support VPN applications.\nPlease contact the manufacturer.</string>
+    <string name="vpn_not_supported_during_lockdown">VPN connections are not supported in lockdown mode.</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="profile_not_found">Profile not found</string>
+    <string name="strongswan_shortcut">strongSwan shortcut</string>
+
+    <!-- Log view -->
+    <string name="log_title">Log</string>
+    <string name="send_log">Send log file</string>
+    <string name="empty_log">Log file is empty</string>
+    <string name="log_mail_subject">strongSwan %1$s Log File</string>
+
+    <!-- VPN profile list -->
+    <string name="no_profiles">No VPN profiles.</string>
+    <string name="add_profile">Add VPN profile</string>
+    <string name="edit_profile">Edit</string>
+    <string name="delete_profile">Delete</string>
+    <string name="select_profiles">Select profiles</string>
+    <string name="profiles_deleted">Selected profiles deleted</string>
+    <string name="no_profile_selected">No profile selected</string>
+    <string name="one_profile_selected">One profile selected</string>
+    <string name="x_profiles_selected">%1$d profiles selected"</string>
+
+    <!-- VPN profile details -->
+    <string name="profile_edit_save">Save</string>
+    <string name="profile_edit_cancel">Cancel</string>
+    <string name="profile_name_label">Profile Name:</string>
+    <string name="profile_name_hint">(use gateway address)</string>
+    <string name="profile_gateway_label">Gateway:</string>
+    <string name="profile_vpn_type_label">Type:</string>
+    <string name="profile_username_label">Username:</string>
+    <string name="profile_password_label">Password:</string>
+    <string name="profile_password_hint">(prompt when needed)</string>
+    <string name="profile_user_certificate_label">User certificate:</string>
+    <string name="profile_user_select_certificate_label">Select user certificate</string>
+    <string name="profile_user_select_certificate">Select a specific user certificate</string>
+    <string name="profile_ca_label">CA certificate:</string>
+    <string name="profile_ca_auto_label">Select automatically</string>
+    <string name="profile_ca_select_certificate_label">Select CA certificate</string>
+    <string name="profile_ca_select_certificate">Select a specific CA certificate</string>
+    <string name="profile_show_advanced_label">Show advanced settings</string>
+    <string name="profile_mtu_label">MTU:</string>
+    <string name="profile_port_label">Server port:</string>
+    <string name="profile_use_default_hint">(use default)</string>
+    <string name="profile_split_tunneling_label">Split tunneling:</string>
+    <string name="profile_split_tunnelingv4_title">Block IPv4 traffic not destined for the VPN</string>
+    <string name="profile_split_tunnelingv6_title">Block IPv6 traffic not destined for the VPN</string>
+    <!-- Warnings/Notifications in the details view -->
+    <string name="alert_text_no_input_gateway">Please enter the gateway address here</string>
+    <string name="alert_text_no_input_username">Please enter your username here</string>
+    <string name="alert_text_nocertfound_title">No CA certificate selected</string>
+    <string name="alert_text_nocertfound">Please select one or activate <i>Select automatically</i></string>
+    <string name="alert_text_out_of_range">Please enter a number in the range from %1$d - %2$d</string>
+    <string name="tnc_notice_title">EAP-TNC may affect your privacy</string>
+    <string name="tnc_notice_subtitle">Device data is sent to the gateway operator</string>
+    <string name="tnc_notice_details">&lt;p>Trusted Network Connect (TNC) allows gateway operators to assess the health of a client device.&lt;/p>&lt;p>For that purpose the gateway operator may request data such as a unique identifier, a list of installed packages, system settings, or cryptographic checksums of files.&lt;/p>&lt;b>Any data will be sent only after verifying the gateway\'s identity.&lt;/b></string>
+
+    <!-- Trusted certificate selection -->
+    <string name="trusted_certs_title">CA certificates</string>
+    <string name="no_certificates">No certificates</string>
+    <string name="reload_trusted_certs">Reload CA certificates</string>
+    <string name="system_tab">System</string>
+    <string name="user_tab">User</string>
+    <string name="local_tab">Imported</string>
+    <string name="delete_certificate_question">Delete certificate?</string>
+    <string name="delete_certificate">The certificate will be permanently removed!</string>
+    <string name="import_certificate">Import certificate</string>
+    <string name="cert_imported_successfully">Certificate successfully imported</string>
+    <string name="cert_import_failed">Failed to import certificate</string>
+
+    <!-- VPN state fragment -->
+    <string name="state_label">Status:</string>
+    <string name="profile_label">Profile:</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="state_connecting">Connecting&#8230;</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_disconnecting">Disconnecting&#8230;</string>
+    <string name="state_disabled">No active VPN</string>
+    <string name="state_error">Error</string>
+
+    <!-- IMC state fragment -->
+    <string name="imc_state_label">Assessment:</string>
+    <string name="imc_state_isolate">Restricted</string>
+    <string name="imc_state_block">Failed</string>
+    <string name="show_remediation_instructions">View remediation instructions</string>
+
+    <!-- Remediation instructions -->
+    <string name="remediation_instructions_title">Remediation instructions</string>
+
+    <!-- Dialogs -->
+    <string name="login_title">Enter password to connect</string>
+    <string name="login_confirm">Connect</string>
+    <string name="error_introduction">Failed to establish VPN:</string>
+    <string name="error_lookup_failed">Gateway address lookup failed.</string>
+    <string name="error_internet_connection">Please check your internet connection or try again later</string>
+    <string name="error_unreachable">Gateway is unreachable.</string>
+    <string name="error_peer_auth_failed">Verifying gateway authentication failed.</string>
+    <string name="error_auth_failed">User authentication failed.</string>
+    <string name="error_assessment_failed">Security assessment failed.</string>
+    <string name="error_generic">Unspecified failure while connecting. Try reboot device</string>
+    <string name="connecting_title">Connecting: %1$s</string>
+    <string name="connecting_message">Establishing VPN with \""%1$s\".</string>
+    <string name="vpn_connected">VPN connected</string>
+    <string name="vpn_profile_connected">This VPN profile is currently connected!</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="connect_profile_question">Connect %1$s?</string>
+    <string name="replaces_active_connection">This will replace your active VPN connection!</string>
+    <string name="connect">Connect</string>
+
+    <!-- Privatix Strings -->
+    <string name="get_protected">GET PROTECTED</string>
+    <string name="title_activity_get_started">GetStartedActivity</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="login"><u>Log in</u></string>
+    <!--<string name="title_activity_settings">Settings</string>-->
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+
+    <string name="title_activity_login">Log in</string>
+    ]
+    <string name="title_activity_sign_up">Sign up</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">LOG IN</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_premium">Privatix premium</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="premium_monthly">Premium monthly</string>
+    <string name="premium_yearly">Premium yearly</string>
+    <string name="have_subscription">You already have a subscription to this plan</string>
+    <string name="title_activity_recovery">Password recovery</string>
+    <string name="password_recovered">Your password recovered</string>
+    <string name="check_email">Please, check email and login again</string>
+    <string name="recover">Recover</string>
+    <string name="recover_back_btn">BACK</string>
+    <string name="no_user_found">User not found</string>
+    <string name="purchase_error">Sorry, subscription not activated. Please contact support service.</string>
+
+
+    <string name="text_not_protected_first">| EMAILS | PASSWORDS | CHATS | PHOTOS | BANK ACCOUNTS | FACEBOOK | WEBSITES | PRIVATE DATA | SECRETS | DOCUMENTS | SMS | LOCATION | CREDIT CARDS </string>
+    <string name="text_not_protected_second">| SECRETS | DOCUMENTS | EMAILS | LOCATION | PASSWORDS | SMS | CHATS | CREDIT CARDS | PHOTOS | BANK ACCOUNTS | FACEBOOK | WEBSITES | PRIVATE DATA </string>
+    <string name="text_not_protected_third">| CREDIT CARDS | LOCATION | WEBSITES | PRIVATE DATA | SECRETS | DOCUMENTS | EMAILS | SMS | PASSWORDS | CHATS | PHOTOS | BANK ACCOUNTS | FACEBOOK </string>
+    <string name="text_not_protected_fourth">| LOCATION | SMS | BANK ACCOUNTS | WEBSITES | PRIVATE DATA | FACEBOOK | SECRETS | DOCUMENTS | EMAILS | CREDIT CARDS | PASSWORDS | CHATS | PHOTOS </string>
+    <string name="text_not_protected_fifth">| PASSWORDS | SECRETS | PHOTOS | EMAILS | LOCATION | CREDIT CARDS | BANK ACCOUNTS | WEBSITES | FACEBOOK | PRIVATE DATA | SMS | DOCUMENTS | CHATS </string>
+    <string name="text_not_protected_sixth">| FACEBOOK | EMAILS | PASSWORDS | LOCATION | CHATS | PHOTOS | WEBSITES | CREDIT CARDS | PRIVATE DATA | SECRETS | DOCUMENTS | BANK ACCOUNTS | SMS </string>
+    <string name="text_not_protected_seventh">| SMS | FACEBOOK | WEBSITES | PRIVATE DATA | CREDIT CARDS | SECRETS | EMAILS | PASSWORDS | DOCUMENTS | LOCATION | PHOTOS | BANK ACCOUNTS | CHATS </string>
+    <string name="text_not_protected_eighth">| CHATS | PHOTOS | EMAILS | PASSWORDS | BANK ACCOUNTS | LOCATION | CREDIT CARDS | FACEBOOK | WEBSITES | PRIVATE DATA | SMS | SECRETS | DOCUMENTS </string>
+
+    <string name="text_protected_first">1011327351216658976961895854109161375482153697372873064836573635724079182911187758461559881048658869939327764622294113695896133918495775169607998</string>
+    <string name="text_protected_second">2931666081121910884051996741959743487181863681458661906299797270207395328671744962635378713265705430872520353901448587580781113595546755184495242</string>
+    <string name="text_protected_third">4625612489495375699644228956140746753074364854609982789442712704102783001346218359262233611288828705323942593326259183338742286522189330385138699</string>
+    <string name="text_protected_fourth">6154299360244377253017232057836938345207740695245976179496908782686053683280101298665856965039088085424547694106983218333355454223818119881705126</string>
+    <string name="text_protected_fifth">4938525099354955695676881116436092197305208587392221795058284535726563925123862985589680440229685368514960768797844591422032840727854705008657500</string>
+    <string name="text_protected_sixth">5212990473323618204416328566541934886002692189355716419817629665178358273914256266743402193351486760812441503893639251234424656544313136710784877</string>
+    <string name="text_protected_seventh">7345551085192048721386810362681462902947741663693296092628513989058505870059923632207779914716712686476550895813787593264858518645571793013096874</string>
+    <string name="text_protected_eighth">8546099827894427127041027830013462183592557164198176296651783582739142562668840519967419597434871829111877584615598810486588699393277646222933038</string>
+
+    <string name="protection_status_text_view">Protection is</string>
+    <string name="protection_status_on_text_view"><![CDATA[<b><font color=#73BD5C>ON</b>]]></string>
+    <string name="protection_status_off_text_view"><![CDATA[<b><font color=#FF0000>OFF</b>]]></string>
+    <string name="protection_status_connecting_text_view">Connecting…</string>
+
+
+    <string name="protection_tip_off">To encrypt network activity and Wi-Fi hotspots,\nchange location and unblock sites - turn on</string>
+    <string name="protection_tip_on">Network activity and Wi-Fi hotspots encrypted,\nreal location changed and sites unblocked</string>
+
+
+    <string name="status_sing_up">Please Sign Up</string>
+    <string name="status_upgrage">Upgrade to premium</string>
+    <string name="status_verify_email">Please verify email</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="done">Done</string>
+    <string name="title_activity_try">Try</string>
+
+    <string name="sing_up">SIGN UP</string>
+
+    <string name="sing_up_rules">By signing up you agree to our\nTerms of Service and Privacy Policy</string>
+
+    <string name="setting_email">Email</string>
+    <string name="setting_change_password">Change Password</string>
+    <string name="setting_account_type">Account type</string>
+    <string name="setting_expiration_date">Expiration date</string>
+    <string name="expiration_date_lifetime">Lifetime</string>
+    <string name="setting_account_free">Free</string>
+    <string name="setting_account_premium">Premium</string>
+    <string name="setting_get_help">Get Help</string>
+    <string name="email_already_registered">Email already registered</string>
+    <string name="setting_log_out">Log out</string>
+    <string name="setting_term_of_service">Terms of Service</string>
+    <string name="setting_sharing">Share Privatix with friends</string>
+    <string name="leave_feedback">Leave Feedback</string>
+    <string name="setting_privacy_policy">Privacy Policy</string>
+    <string name="setting_imprint">Imprint</string>
+    <string name="setting_version">Version</string>
+    <string name="setting_login">LOGIN</string>
+    <string name="setting_sign_up">SIGN UP</string>
+    <string name="show_network_alerts">Show network alerts</string>
+    <string name="connect_on_startup">Connect on startup</string>
+    <string name="send_error_logs">Send error logs</string>
+
+    <string name="video_ad_text">Watch a short video ad</string>
+
+
+    <string name="switch_text_off">Switch to enable protection</string>
+    <string name="switch_text_on">Switch to disable protection</string>
+
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="invalid_data">Invalid data send</string>
+    <string name="device_limit_reached_title">Device limit reached</string>
+    <string name="device_limit_reached_text">Please visit Privatix.com website to deactivate one of your devices before adding another</string>
+    <string name="title_activity_login_or_sign_up"></string>
+    <string name="check_your_network">Check your network connection</string>
+    <string name="share_text_1">Privatix - https://www.Privatix.com</string>
+    <string name="share_text_2">allows you to access any blocked website, social network or online service.</string>
+
+    <string name="email_not_registered">This email is not registered, please SIGN UP</string>
+    <string name="email_registered">This email is already registered , please login</string>
+    <string name="email_correct">"Your email is correct</string>
+    <string name="email_incorrect">This email is incorrect</string>
+    <string name="get_premium">Get Premium</string>
+
+    <string name="sign_up_complete">Sign Up Complete!</string>
+    <string name="premium">Premium</string>
+
+
+    <string name="notification_text">Your data is at risk - turn on Privatix to protect your network activity</string>
+    <string name="subscription_not_supported">Subscriptions not supported on your device yet. Sorry!</string>
+
+    <string name="price_month">€ 10</string>
+    <string name="price_year">€ 59</string>
+
+    <string name="subscription_period_prompt">Select your subscription period</string>
+    <string name="subscription_resignup_prompt">To reactivate your subscription, select your subscription period</string>
+    <string name="subscription_update_prompt">To change your subscription, select your new subscription period</string>
+    <string name="subscription_prompt_continue">Continue</string>
+    <string name="subscription_prompt_cancel">Cancel</string>
+
+
+    <!-- TellWhatThing-->
+    <string name="tell_dialog_title">Tell us what do you think</string>
+    <string name="tell_dialog_question">How Privatix works?</string>
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
+
+    <!-- RatingDialog-->
+    <string name="rating_dialog_title">Thanks</string>
+    <string name="rating_dialog_question">How would you rate your Privatix experience?</string>
+    <string name="submit">Submit</string>
+    <string name="not_now">Not now</string>
+
+    <!--HelpImproveDialog-->
+    <string name="help_improve_dialog_title">Help us to improve</string>
+    <string name="help_improve_dialog_question">Send a fast feedback</string>
+    <string name="sure">Sure</string>
+
+    <!--ServersOverloadedDialog-->
+    <string name="servers_overloaded_dialog_title">Free servers overloaded</string>
+    <string name="servers_overloaded_top_text">Please wait for a free slot</string>
+    <string name="servers_overloaded_middle_text">Your queue position :</string>
+    <string name="servers_overloaded_bottom_text">Stay on this screen or help us to add a new servers by watching ad video</string>
+    <string name="servers_overloaded_premium">Premium</string>
+    <string name="servers_overloaded_watch_video">Skip by Watching a Video</string>
+
+
+    <!--UpdateAppVersionDialog-->
+    <string name="update_app_dialog_title">Please update</string>
+    <string name="update_app_dialog_message">Your version of Privatix is out of date. Please upgrade your app in the Play Store or download new .apk</string>
+    <string name="update_app_dialog_upgrade_play_store">Upgrade in the Play Store</string>
+    <string name="update_app_dialog_download_new_apk">Download new .apk</string>
+    <string name="update_app_dialog_dismiss">Dismiss</string>
+
+    <!--API Error-->
+    <string name="server_error">Sorry, internal server error. Please try again later.</string>
+    <string name="wrong_data_sent">Wrong data sent. Please ask app developers to fix this error.</string>
+    <string name="network_error">Network error</string>
+    <string name="timed_out">Timed out</string>
+    <string name="error_details">Error details: %1$s</string>
+    <string name="error_server_crash">Error on server. Please try again later.</string>
+
+
+    <!--VPNErrorListener-->
+    <string name="vpn_connection_lost">Sorry, VPN connection lost. Please connect to other country.</string>
+
+
+    <!--First successful connection dialog-->
+    <string name="protection_on">Protection is ON</string>
+    <string name="successful_connection_dialog_message">Shield icon in the status bar indicating that all network traffic is secured</string>
+    <!--<string name="successful_connection_dialog_message">[img  src=ic_shield_status_bar/] icon in the status bar indicating that all network traffic is secured</string>-->
+
+
+    <!--Get protected-->
+    <string name="cannot_login">Can\'t go to Login</string>
+
+
+</resources>

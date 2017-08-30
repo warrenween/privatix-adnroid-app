@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--activity main-->
+    <dimen name="rel_shield_margin_top">140dp</dimen>
+    <dimen name="marquee_view_100_padding_top">75dp</dimen>
+    <dimen name="marquee_view_800_padding_bottom">75dp</dimen>
+    <dimen name="tv_protection_status_margin_top">25dp</dimen>
+</resources>

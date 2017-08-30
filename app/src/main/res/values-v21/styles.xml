@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/blueHint</item>
+        <item name="colorControlNormal">@color/blueHint</item>
+        <item name="colorControlActivated">@color/blueHint</item>
+        <item name="colorControlHighlight">@color/blueHint</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTheme">@style/MyApp.ActionBarTheme</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <!--<item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>-->
+        <!--<item name="spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>-->
+        <!-- <item name="android:switchStyle">@style/SwitchStyle</item>-->
+        <!-- <item name="switchStyle">@style/SwitchStyle</item>-->
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+        <item name="android:titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+
+    <style name="spinnerStyle" parent="@style/Widget.AppCompat.ListView">
+        <item name="android:dropDownListViewStyle">@style/spinnerDropDownItemStyle</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">@color/gray_account_status_background</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+
+</resources>
